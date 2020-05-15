@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- 
+            ====================================
+            Author Name		: 	Zeeshan Hussain
+            Creation Date	: 	26/04/2020
+            ====================================
+    -->
+
+    <meta charset="UTF-8">
+
+    <!--  Code for Making This website as Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Roll No WM12548 ASSIGNMENT No 3</title>
+
+    <!-- For Linking CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {margin:0;font-family:Arial}
+        
+        /* Navigation Bar Working */
+        .topnav 
+        {
+          overflow: hidden;
+          background-color: #f7f8fa;
+        }
+        
+        .topnav a 
+        {
+          float: left;
+          display: block ;
+          color: black ;
+          text-align: center ;
+          padding: 14px 28px ;
+          text-decoration: none ;
+          font-size: 14px ;
+        }
+        
+        .active 
+        {
+          background-color: #316dc3 ;
+          color: white ;
+          border-radius: 42% ;
+        }
+        
+        .topnav .icon 
+        {
+          display: none;
+        }
+        
+        .dropdown 
+        {
+          float: left ;
+          overflow: hidden;
+        }
+
+        .dropdown .dropbtn 
+        {
+          font-size: 14px;    
+          border: none;
+          outline: none;
+          color: black;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+        
+        .dropdown-content 
+        {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a 
+        {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .topnav a:hover, .dropdown:hover .dropbtn 
+        {
+          background-color: #316dc3;
+          color: white;
+          border-radius: 42%;
+        }
+        
+        .dropdown-content a:hover 
+        {
+          background-color: #316dc3;
+          color: white;
+        }
+        
+        .dropdown:hover .dropdown-content 
+        {
+          display: block;
+        }
+        
+        @media screen and (max-width: 600px) 
+        {
+          .topnav a:not(:first-child), .dropdown .dropbtn 
+          {
+            display: none;
+          }
+          .topnav a.icon 
+          {
+            float: right;
+            display: block;
+          }
+        }
+        
+        @media screen and (max-width: 600px) 
+        {
+          .topnav.responsive {position: relative;}
+          .topnav.responsive .icon 
+          {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .topnav.responsive a 
+          {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          .topnav.responsive .dropdown {float: none;}
+          .topnav.responsive .dropdown-content {position: relative;}
+          .topnav.responsive .dropdown .dropbtn 
+          {
+            display: block;
+            width: 100%;
+            text-align: left;
+          }
+        }
+
+        /* For Showing Arrows in naviation bar */
+        .arrow 
+        {
+            border: solid black;
+            border-width: 0 1px 1px 0;
+            display: inline-block;
+            padding: 3px;
+        }        
+
+        .right 
+        {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left 
+        {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up 
+        {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down 
+        {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+        </style>
+
+</head>
+<body>
+
+    <!-- Header Region Working  -->
+    <div class="First_Outer_RN">
+        <div class="Social_Media_Icons_RN">
+            <a href="https://www.facebook.com/pg/saylaniwelfare" target="_blank"><img src="img/Facebook_Icon.png" height="20px"></a>
+            <a href="https://twitter.com/OfficialSwit" target="_blank"><img src="img/Twitter_Icon.png" height="20px"></a>
+            <a href="https://www.instagram.com/saylaniwelfare/" target="_blank"><img src="img/Instagram_Icon.png" height="20px"></a>
+            <a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage" target="_blank"><img src="img/Youtube_Icon.png" height="22px"></a>
+            <a href="https://wa.me/923331201585" target="_blank"><img src="img/Whatsapp_Icon.png" height="20px"></a>
+        </div>
+        <div class="Txt_RN">
+            <span> Millions of people's life has changed, millions more awaiting your donation</span>
+        </div>
+        <div class="Btns_RN">
+            <a class="Btns_RN_Btns" href="https://www.saylaniwelfare.com/UK-Ramzan">UK Donor</a>
+            <a class="Btns_RN_Btns" href="https://www.saylaniwelfare.com/Online-Sadqah">Donate Now</a>
+            <a class="Btns_RN_Btns" href="https://www.saylaniwelfare.com/result">SMIT Results</a>
+        </div>
+    </div>
+    <div class="Second_Outer_RN">
+        <div class="Sailani_Logo_RN">
+            <img src="img/Saylani_Logo.png" alt="Saylani Logo" style="width: 150px; height: 45px;">
+        </div>
+        <div class="Middle_RN">
+        </div>
+        <div class="Nav_Bar_RN">
+            <div class="topnav" id="myTopnav">
+                <a Class="active" style="color:white" href="https://www.saylaniwelfare.com/home">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">About
+                        <i class="arrow down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="https://www.saylaniwelfare.com/Introduction">Introduction</a>
+                      <a href="https://www.saylaniwelfare.com/Chairman-Message">Chairman Message</a>
+                      <a href="https://www.saylaniwelfare.com/Saylani-Annual-Report">Saylani Annual Report</a>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">Saylani Services
+                        <i class="arrow down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Education <i class="arrow right"></i></a> 
+                        <a href="#">Medical <i class="arrow right"></i></a>
+                        <a href="#">Welfare <i class="arrow right"></i></a>
+                        <a href="https://www.saylaniwelfare.com/Hajj-Application-Form">Hajj Application Form</a>
+                        <a href="https://www.saylaniwelfare.com/Saylani-Dastarkhwan">Saylani Dastarkhwan</a>
+                        <a href="https://www.saylaniwelfare.com/Saylani-RO-Plant">Saylani RO Plant</a>
+                        <a href="https://www.saylaniwelfare.com/Online-Sadqah">Online Sadqah</a>
+                        <a href="https://www.saylaniwelfare.com/Online-Taweezat-Istikhara">Online Taweezat / Istekhara</a>
+                        <a href="https://www.saylaniwelfare.com/Saylani-Job-Bank">Saylani job Bank</a>
+                        <a href="#">Online Quran Academy <i class="arrow right"></i></a>
+                        <a href="https://www.saylaniwelfare.com/Books">Books</a>
+                        <a href="https://www.saylaniwelfare.com/Masajid-Online-Admission-Form">Saylani Online Masajid</a>
+                    </div>
+                </div>                
+                <div class="dropdown">
+                    <button class="dropbtn">Future Project
+                        <i class="arrow down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="https://www.saylaniwelfare.com/Saylani-University">Saylani University</a>
+                        <a href="https://www.saylaniwelfare.com/Saylani-City">Saylani City</a>
+                    </div>
+                </div>
+                <a href="https://www.saylaniwelfare.com/Media">Media</a>
+                <a href="https://www.saylaniwelfare.com/News">News</a>                 
+                <div class="dropdown">
+                    <button class="dropbtn">Donation
+                        <i class="arrow down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="https://www.saylaniwelfare.com/Bank-Detail">Bank Details</a>
+                        <a href="https://www.saylaniwelfare.com/Sadqa">Sadqa</a>
+                        <a href="https://www.saylaniwelfare.com/Aqiqa">Aqiqa</a>
+                        <a href="https://www.saylaniwelfare.com/Donation">Other Donation</a>
+                        <a href="https://www.saylaniwelfare.com/Corona-Effecties">Corona Effecties</a>                        
+                        <a href="https://www.saylaniwelfare.com/">Ramzan - 2020 <i class="arrow right"></i></a>
+                        <a href="https://www.saylaniwelfare.com/Contact-Us">Contact Us</a>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>  
+        </div>
+    </div>    
+
+    <!-- Slider or Bakcground Image Working  -->
+    <div>
+        <img src="img/Middle_Image_1.jpg" alt="Back Ground Image" style="width: 100%; height: 515px;"> <!-- style="width: 100%; height: 550px" -->
+    </div>
+
+    <!-- Marquee Region Working -->
+    <!-- <div> -->
+        <p style="margin-top: 12px; background-color: #316DC3; color: white;">
+            <marquee direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
+                <font color="#00FF00">(News-1 Dated:15-06-2019)<font color="#FFFFFF">&#160;&#160;PIAICNext Phase Admission in Islamabad And Faisalabad" . <a href="https://www.facebook.com/saylaniwelfare/photos/a.258515937507690/3441173892575196/?type=3&theater" style="color: blue">More Details</a> &#160;&#160;
+                <font color="#00FF00">(News-2 Dated:15-05-2019)<font color="#FFFFFF">&#160;&#160;Saylani Welfare Announced "Donation Application" . <a href="https://web.facebook.com/saylaniwelfare/photos/a.258515937507690/3332489120110341/?type=3&theater" style="color: blue">More Details</a> &#160;&#160;
+                <font color="#00FF00">(News-3 Dated:07-05-2019)<font color="#FFFFFF">&#160;&#160;Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . <a href="https://www.facebook.com/saylaniwelfare/?type=3&theater" style="color: blue">More Details</a> &#160;&#160;
+                <font color="#00FF00">(News-4 Dated:08-03-2019)<font color="#FFFFFF">&#160;&#160;Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan. <a href="https://www.facebook.com/saylaniwelfare/posts/3164679946891260?__tn__=-R" style="color: blue">More Details</a> &#160;&#160;
+                <font color="#00FF00">(News-5 Dated:25-02-2019)<font color="#FFFFFF">&#160;&#160;PIAIC Entrance Exam Merit Ranking List Announced. <a href="https://www.facebook.com/saylaniwelfare/photos/a.258515937507690/3135220066503915/?type=3&theater>" style="color: blue">More Details</a>&#160;&#160;
+                <font color="#00FF00">(News-6 Dated:23-02-2019)<font color="#FFFFFF">&#160;&#160;President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a href="https://www.facebook.com/saylaniwelfare/posts/3135103563182232?__xts__[0]=68.ARD9PTgM3DL_2vvulRqQ-b25KUD2P8X7TSS9g6gbxDfRdIBqgjNGJffSbV0ZcFmUFF5Ocrn-wvtpvDbjWBQxq0UHTlRJR1vEkgUOfm8Vk0ltcQp9K5q268QBcUMjujlPyCnBIxXcbe_Qjqbw1DXfCLQ1fFwBdGk77ndYxRXPrUVHrYybrBb5jWxu8GJQ37RpI7LLayc6xkve6gO149Ud-NWv_eF72blzToVI2fZW2ZWJUlRFSgWFK5jgrDGcsP-I7NBis9UXNfBBb55nXahKzJHvloneJh93hN9Wc3bIyvpn7v1IJSixyqcGRr_KHC-mO46gL9JUYx_acVfGdQDLUCBORw&__tn__=-R>" style="color: blue">More Details</a> &#160;&#160;                    
+                <font color="#00FF00">(News-7 Dated:19-02-2019)<font color="#FFFFFF">&#160;&#160;Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. <a href="https://www.facebook.com/saylaniwelfare/posts/3124996217526300?__xts__[0]=68.ARCElwXqFXBXobZcA_UIl5WsTnqek6hA0692UZgzLiTQcX71VvEVoMgzqDV_LCU8l4vgjmKHex8j5abeGcQPzz-0Vo7g8gNqrP0CK04uhT29KI7ZBXw7L0UhSE9vpr7JOS4591gwSiYhmPbI_exl5O0PUbYyqzRyVjDhZf833fadxaHMxR3LURDcRfhfFRurM3x6cKNgZ7XwQi2vP6tA2-XS4HUzYNRUfZ5Yc4iUJAwXHOGi64EA62Drmy5c0mv0CZumqreWzE6JGBGOlQC5dMh7k07-qNBGwItqzarzu8CiNWC9kZMwzYyExhOY7JKF76U1ZzEbClh6A-yQYJ-qY1jbYQ&__tn__=-R>" style="color: blue">More Details</a> &#160;&#160;     
+            </marquee>
+        </p>  
+    <!-- </div> -->
+
+    <!-- Introduction Region Working -->
+    <div>  
+        <h1 style="padding-top: 50px; color:#316dc3; text-align: center; line-height: 1;">INTRO<span style="color:#427900;text-align: center;line-height: 1;">DUCTION</span></h1>
+        <center>
+            <img src="img/favicon.png" style="height: 40px;">
+        </center>
+        <div style="line-height: 1.9;">
+            <p style="padding-left: 180px; padding-right: 180px; padding-bottom: 50px; text-align: justify">Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani
+                Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial
+                troubles of the poor, giving people a chance to live a dignified life and spreading happiness.
+                <br>
+                <br>
+                We are an organization that believes in lighting up the lives of underprivileged people across the world. We
+                endeavor to provide the best quality services in areas including food, education, medical and social welfare free
+                of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day,
+                hundreds more are given the hope of life through medical health care, many are educated to become leaders of
+                tomorrow and several are given the opportunity to stand on their feet financially.
+                <br>
+                <br>
+                Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125
+                branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and
+                Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide
+                branches are operating under the guidance of a team of over 2,000 working professionals who help almost
+                125,000 people on a daily basis.
+                <br>
+                <br>
+                We strongly believe that a little help goes a long way and our work would not be possible without the generous
+                support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting
+                our causes and enabling us to serve the needs of people in need.
+            </p>
+        </div>
+    </div>
+
+    <!-- Monthly Region Working -->
+    <div class="Monthly_RN">
+        <div class="Monthly_1_RN">
+            <img src="img/icon_food_png.png"  style="height: 40px;">
+            <h2 style="color: white; font-size: 42; font-weight: 500;">125,000</h2>
+            <h5 style="color: white; font-size: 42; font-weight: 600;">DAILY DASTRAKHAN <span class="text-themeout-colored font-weight-600"><font color="#00FF00">(MONTHLY)</font></h5>
+        </div>
+        <div class="Monthly_2_RN">
+            <img src="img/icon_family_png.png"  style="height: 40px;">
+            <h2 style="color: white; font-size: 42; font-weight: 500;">7,500</h2>
+            <h5 style="color: white; font-size: 42; font-weight: 600;">FAMILY ADOPTION <span class="text-themeout-colored font-weight-600"><font color="#00FF00">(MONTHLY)</font></h5>
+        </div>
+        <div class="Monthly_3_RN">
+            <img src="img/icon_medical_png.png"  style="height: 40px;">
+            <h2 style="color: white; font-size: 42; font-weight: 500;">43,749</h2>
+            <h5 style="color: white; font-size: 42; font-weight: 600;">MEDICAL <span class="text-themeout-colored font-weight-600"><font color="#00FF00">(MONTHLY)</font></h5>
+        </div>
+        <div class="Monthly_4_RN">
+            <img src="img/icon_education_png.png"  style="height: 40px;">
+            <h2 style="color: white; font-size: 42; font-weight: 500;">180,000</h2>
+            <h5 style="color: white; font-size: 42; font-weight: 600;">EDUCATION <span class="text-themeout-colored font-weight-600"><font color="#00FF00">(MONTHLY)</font></h5>
+        </div>
+    </div>
+
+    <!-- What We Are Doing Region Working -->
+    <div>  
+        <h1 style="padding-top: 50px; color:#316dc3; text-align: center; line-height: 1;">WHAT WE <span style="color:#427900;text-align: center;line-height: 1;">ARE DOING?</span></h1>
+        <center>
+            <img src="img/favicon.png" style="height: 40px;">
+        </center>
+        <div class="WWAD_1_RN">
+            <div class="WWAD_1_1_RN">
+                <a href="https://www.saylaniwelfare.com/Online-Sadqah">
+                    <img src="img/onlinesadqah.png" width="70" alt="">
+                </a>
+                <h4 style="color: #316dc3; font-weight: 600;">ONLINE SADQAH</h4>
+                <p></p>
+            </div>
+            <div class="WWAD_1_2_RN">
+                <a href="#">
+                    <img src="img/welfare.png" width="70" alt="">
+                </a>
+                <h4 style="color: #316dc3; font-weight: 600;">WELFARE</h4>
+                <p></p>             
+            </div>
+            <div class="WWAD_1_3_RN">
+                <a href="#">
+                    <img src="img/medical.png" width="70" alt="">
+                </a>
+                <h4 style="color: #316dc3; font-weight: 600;">MEDICAL</h4>
+                <p></p>
+            </div>
+        </div>
+        <div class="WWAD_2_RN">
+            <div class="WWAD_2_1_RN">
+                <a href="#">
+                    <img src="img/Dastarkhwan.png" width="70" alt="">
+                </a>
+                <h4 style="color: #316dc3; font-weight: 600;">DASTARKHWAN</h4>
+                <p></p>
+            </div>
+            <div class="WWAD_2_2_RN">
+                <a href="#">
+                    <img src="img/ROPLANT.png" width="70" alt="">
+                </a>
+                <h4 style="color: #316dc3; font-weight: 600;">RO PLANT</h4>
+                <p></p>             
+            </div>
+            <div class="WWAD_2_3_RN">
+                <a href="#">
+                    <img src="img/education.png" width="70" alt="">
+                </a>
+                <h4 style="color: #316dc3; font-weight: 600;">EDUCATION</h4>
+                <p></p>
+            </div>
+        </div>        
+    </div>
+
+    <!-- Mission and Upcoming Projects Region Working -->    
+    <div class="WWAD_3_RN">
+        <div class="WWAD_3_1_RN">
+            <h2 Style="color:#316dc3; ">MISSION AND UPCOMING PROJECTS</h2>
+
+            <div class="WWAD_3_1_1_RN">
+                <div class="WWAD_3_1_1_1_RN"> 
+                    <a href="#"><img src="img/Hepatitis.png"></a> <h4 style="display:inline">HEPATITIS</h4>
+                    <p></p>
+                </div>
+                <div class="WWAD_3_1_1_2_RN"> 
+                    <a href="#"><img src="img/housing.png"></a> <h4 style="display:inline">HOUSING SOCIETY</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="WWAD_3_1_2_RN">
+                <div class="WWAD_3_1_2_1_RN"> 
+                    <a href="#"><img src="img/IT.png"></a> <h4 style="display:inline">IT LITERACY</h4>
+                    <p></p>
+                </div>
+                <div class="WWAD_3_1_2_2_RN"> 
+                    <a href="#"><img src="img/tharparkar.png"></a> <h4 style="display:inline">Tharparkar</h4>
+                    <p></p>
+                </div>
+            </div>              
+        </div>
+        <div class="WWAD_3_2_RN">
+            <h2 Style="color:#316dc3; ">Upcoming Events</h2>
+            <div>
+                <p>
+                    <marquee direction="up" width="250" height="200" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
+                        Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan .<a href="https://www.facebook.com/saylaniwelfare/posts/3164679946891260?__tn__=-R" style="color: blue">More Details</a> <br><br>
+                        Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad .<a href="https://www.facebook.com/saylaniwelfare/photos/a.258515937507690/3152781434747778/?type=3&theater>" style="color: blue">More Details</a> <br><br>
+                        Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training .<a href="https://www.facebook.com/saylaniwelfare/posts/3124996217526300?__xts__[0]=68.ARCElwXqFXBXobZcA_UIl5WsTnqek6hA0692UZgzLiTQcX71VvEVoMgzqDV_LCU8l4vgjmKHex8j5abeGcQPzz-0Vo7g8gNqrP0CK04uhT29KI7ZBXw7L0UhSE9vpr7JOS4591gwSiYhmPbI_exl5O0PUbYyqzRyVjDhZf833fadxaHMxR3LURDcRfhfFRurM3x6cKNgZ7XwQi2vP6tA2-XS4HUzYNRUfZ5Yc4iUJAwXHOGi64EA62Drmy5c0mv0CZumqreWzE6JGBGOlQC5dMh7k07-qNBGwItqzarzu8CiNWC9kZMwzYyExhOY7JKF76U1ZzEbClh6A-yQYJ-qY1jbYQ&__tn__=-R>" style="color: blue">More Details</a>   <br><br> 
+                        PIAIC Entrance Exam Merit Ranking List Announced.<a href="https://www.saylaniwelfare.com/result" style="color: blue">More Details</a>  <br><br> President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a href="https://www.facebook.com/saylaniwelfare/posts/3135103563182232?__xts__[0]=68.ARD9PTgM3DL_2vvulRqQ-b25KUD2P8X7TSS9g6gbxDfRdIBqgjNGJffSbV0ZcFmUFF5Ocrn-wvtpvDbjWBQxq0UHTlRJR1vEkgUOfm8Vk0ltcQp9K5q268QBcUMjujlPyCnBIxXcbe_Qjqbw1DXfCLQ1fFwBdGk77ndYxRXPrUVHrYybrBb5jWxu8GJQ37RpI7LLayc6xkve6gO149Ud-NWv_eF72blzToVI2fZW2ZWJUlRFSgWFK5jgrDGcsP-I7NBis9UXNfBBb55nXahKzJHvloneJh93hN9Wc3bIyvpn7v1IJSixyqcGRr_KHC-mO46gL9JUYx_acVfGdQDLUCBORw&__tn__=-R>" style="color: blue">More Details</a>                    
+                    </marquee>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Galarry Region Working -->
+    <div>  
+        <h1 style="padding-top: 50px; color:#316dc3; text-align: center; line-height: 1;">IMAGE <span style="color:#427900;text-align: center;line-height: 1;">GALLERY</span></h1>
+        <center>
+            <img src="img/favicon.png" style="height: 40px;">
+        </center>
+    </div>
+
+    <div class="Img_Glry_RN">
+        <div class="Img_Glry_Pic_2"> 
+            <a href="img/rashan2.jpg" target="_blank"><img src="img/rashan2.jpg" style="width: 225px; height: 185px"></a>            
+            <!-- <img src="img/food.jpg" style="width: 225px; height: 185px;"> -->
+        </div>
+        <div class="Img_Glry_Pic_3"> 
+            <a href="img/food.jpg" target="_blank"><img src="img/food.jpg" style="width: 225px; height: 185px"></a>
+            <!-- <img src="img/hazrat.jpg" style="width: 225px; height: 185px;"> -->
+        </div>
+        <div class="Img_Glry_Pic_4"> 
+            <a href="img/hazrat.jpg" target="_blank"><img src="img/hazrat.jpg" style="width: 225px; height: 185px"></a>
+            <!-- <img src="img/rashan2.jpg" style="width: 225px; height: 185px;"> -->
+        </div>
+        <div class="Img_Glry_Pic_5"> 
+            <a href="img/rashan2.jpg" target="_blank"><img src="img/rashan2.jpg" style="width: 225px; height: 185px"></a
+            <!-- <img src="img/hazrat2.jpg" style="width: 225px; height: 185px;"> -->
+        </div>       
+        <div class="Img_Glry_Pic_5"> 
+            <a href="img/hazrat2.jpg" target="_blank"><img src="img/hazrat2.jpg" style="width: 225px; height: 185px"></a>
+            <!-- <img src="img/hazrat2.jpg" style="width: 225px; height: 185px;"> -->
+        </div> 
+    </div> 
+
+    <!-- Contact Us Region Working -->
+    <div Class="Contact_Us_RN">
+      <div Class="Contact_Us_1_RN">
+            <p class="Address_P">Head Office,
+                <br> A-25, Bahadurabad Chowrangi
+                Karachi, Pakistan </p>
+            <ul style="list-style: none;">
+                <li> <img src="img/phone.png" style="width: 13px; height: 13px; top: 10px; margin-left: 20px;"></i> UAN: 111-729-526  </li>
+                <li> <img src="img/world.png" style="width: 13px; height: 13px; top: 10px; margin-left: 20px;"></i> (+0092-213) 4130786-90</li>
+                <li> <img src="img/phone.png" style="width: 13px; height: 13px; top: 10px; margin-left: 20px;"></i> CELL: 92-311-1729526</li>
+                <li> <img src="img/phone.png" style="width: 13px; height: 13px; top: 10px; margin-left: 20px;"> USA NO +1(716)941 7792 </li>
+                <li> <img src="img/phone.png" style="width: 13px; height: 13px; top: 10px; margin-left: 20px;"> UK NO (+44)115 970 6256 </li>
+                <li> <img src="img/Envelope.png" style="width: 13px; height: 13px; top: 10px; margin-left: 20px;"> info@saylaniwelfare.com</li>
+            </ul>
+      </div>
+      <div Class="Contact_Us_2_RN">
+        <u><b><h5> Useful Links</h5></b></u> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </div>
+      <div Class="Contact_Us_3_RN">
+        <b></b><h5> Connect With Us </h5> </b> 
+        <div class="Social_Media_Icons_RN">
+            <a href="https://www.facebook.com/pg/saylaniwelfare" target="_blank"><img src="img/Facebook_Icon.png" height="20px"></a>
+            <a href="https://twitter.com/OfficialSwit" target="_blank"><img src="img/Twitter_Icon.png" height="20px"></a>
+            <a href="https://www.instagram.com/saylaniwelfare/" target="_blank"><img src="img/Instagram_Icon.png" height="20px"></a>
+            <a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage" target="_blank"><img src="img/Youtube_Icon.png" height="22px"></a>
+            <!-- <a href="https://wa.me/923331201585" target="_blank"><img src="img/Whatsapp_Icon.png" height="20px"></a> -->
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </div>  
+    </div>
+  
+<div class="First_Outer_RN">
+    <p style="color:white;">Copyright © 2020 Saylani Welfare </p>
+</div>
+
+
+    <script>
+        function myFunction() 
+        {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") 
+          {
+            x.className += " responsive";
+          } else 
+          {
+            x.className = "topnav";
+          }
+        }
+    </script>
+        
+        
+</body>
+
+</html>

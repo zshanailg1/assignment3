@@ -1,0 +1,362 @@
+/* Header Region Working */
+.First_Outer_RN 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #316dc3;
+    height: 50%;   
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+}
+
+.Social_Media_Icons_RN 
+{
+    /* flex: 1; */
+    width: 250;
+    /* padding-top: 10px;     */
+}
+
+.Txt_RN 
+{
+    /* flex: 2; */
+    width: 250;
+    /* padding-top: 10px;  */
+    color: white; 
+}
+
+.Btns_RN 
+{
+    /* flex: 1; */
+    width: 250;
+    /* padding-top: 5px;  */
+}
+
+.Btns_RN_Btns
+{
+    background-color: #f5f5f5;
+    color: #427900;  
+    border: 1px solid #427900;  
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.Second_Outer_RN 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f7f8fa;
+    height: 75px;   
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* position: fixed; */
+}
+
+.Sailani_Logo_RN 
+{
+    flex: 1;
+    /* padding-top: 15px;     */
+    /* padding-left: 65px; */
+}
+
+.Middle_RN 
+{
+    flex: 1;
+    /* padding-top: 15px; */
+}
+
+.Nav_Bar_RN 
+{
+    flex: 3; 
+    /* padding-top: 15px;  */
+}
+
+/* Monthly Region Working  */
+.Monthly_RN 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: #2655e8;
+    padding-top: 25px;
+
+}
+
+.Monthly_1_RN 
+{
+    flex: 1;
+}
+
+.Monthly_2_RN 
+{
+    flex: 1;
+}
+
+.Monthly_3_RN 
+{
+    flex: 1; 
+}
+
+.Monthly_4_RN 
+{
+    flex: 1; 
+}
+
+
+/* What We Are Doing Region Working */
+.WWAD_1_RN 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin-top: 5px; */
+}
+
+.WWAD_1_1_RN
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 50px 20px 50px 150px;    
+}
+
+.WWAD_1_2_RN
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    /* margin: 15px 0px 15px 0px; */
+    margin: 50px 20px 50px 20px;
+}
+
+.WWAD_1_3_RN 
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 50px 150px 50px 20px;  
+}
+
+.WWAD_2_RN 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.WWAD_2_1_RN
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 0px 20px 50px 150px;    
+}
+
+.WWAD_2_2_RN
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    /* margin: 15px 0px 15px 0px; */
+    margin: 0px 20px 50px 20px;
+}
+
+.WWAD_2_3_RN 
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 0px 150px 50px 20px;  
+}
+
+.WWAD_3_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;    
+}
+
+/* Mission and Upcoming Projects Region Working */
+.WWAD_3_1_RN
+{
+    flex: 1;
+    margin-top: 10px;
+}
+
+.WWAD_3_2_RN
+{
+    flex: 1;
+    margin-top: 10px;
+}
+
+.WWAD_3_1_1_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center; 
+}
+
+.WWAD_3_1_1_1_RN 
+{
+    flex: 1;
+    background-color: #f7f8fa; 
+    border: 1px solid lightgray;
+    padding: 15px;
+    height: 50px;
+    width: 200px;
+    margin: 0px 25px 5px 100px; 
+    color: #316dc3;      
+}
+
+.WWAD_3_1_1_2_RN
+{
+    flex: 1;
+    background-color: #f7f8fa; 
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin: 0px 20px 5px 0px;
+    height: 50px;
+    width: 200px;
+    color: #316dc3;
+}
+
+.WWAD_3_1_2_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center; 
+}
+
+.WWAD_3_1_2_1_RN 
+{
+    flex: 1;
+    background-color: #f7f8fa; 
+    border: 1px solid lightgray;
+    padding: 15px;
+    height: 50px;
+    width: 200px;
+    margin: 20px 25px 5px 100px; 
+    color: #316dc3;      
+}
+
+.WWAD_3_1_2_2_RN
+{
+    flex: 1;
+    background-color: #f7f8fa; 
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin: 20px 20px 5px 0px;
+    height: 50px;
+    width: 200px;
+    color: #316dc3;
+}
+
+/* Image Galarry Region Working */
+.Img_Glry_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;  
+    /* background-color: yellow;   */
+    /* padding: 25px; */
+    margin: 10px 10px 10px 10px; 
+}
+
+.Img_Glry_Pic_1
+{
+    flex: 1;
+    /* padding: 0px; */
+    /* border: 2px solid red;  */
+    /* padding-left: 0px ;
+    padding-right: 0px;
+    margin: 0px 0px 0px 0px;     */
+}
+
+.Img_glry_Pic_2
+{
+    flex: 1;
+    /* padding: 0px; */
+    /* border: 2px solid red; */
+    /* margin: 20px 0px 20px 0px;   */
+}
+
+.Img_glry_Pic_3
+{
+    flex: 1;
+    /* margin: 20px 0px 20px 0px;    */
+}
+
+.Img_glry_Pic_4
+{
+    flex: 1;
+    /* margin: 20px 0px 20px 0px; */
+}
+
+.Img_glry_Pic_5
+{
+    flex: 1;
+    /* margin: 20px 20px 20px 0px; */
+}
+
+/* Contact Us Region Working */
+.Contact_Us_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    align-items: center; 
+    background-color: #25272e;
+    color: #bbb;
+    margin-top: 100px;
+}
+
+.Contact_Us_1_RN
+{
+    flex: 1;
+    text-align: left;
+}
+
+.Contact_Us_2_RN
+{
+    flex: 1;
+}
+
+.Contact_Us_3_RN
+{
+    flex: 1;
+}
+
+.Address_P
+{
+    text-align: left;
+    padding-left: 45px;
+}
